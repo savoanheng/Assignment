@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
+    margin-bottom: 50px;
+}
+.body{
+    position: absolute;
+    width: 99vw;
+    z-index: 0;
+    margin-top: 50px;
+}
+.header-pos{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.pos-left{
+    width: 30vw;
+    height: 88vh;
+    background: white;
+    margin-left: 10px;
+    border-radius: 10px;
+    float: left;
+}
+.tax{
+    width: 250px;
+    height: 180px;
+    margin-left: 10px;
+    position: absolute;
+    bottom: 100px;
+    float: left;
+}
+.output-total{
+    width: 200px;
+    float:left;
+    margin-left: 100px;
+    height: 100px;
+    position:absolute;
+    bottom: 100px;
+}
+.cate{
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+.margin-auto{
+    margin: 0 auto;
+}
+.brand{
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;  
+}
+.cate-item{
+    max-width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+.box-product{
+    width: 180px;
+    height: 240px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 0.5px solid #DADADA ;
+    float: left;
+}
+.image-product{
+    width: 180px;
+    height: 80px;
+    margin-top: 3px;
+    margin-left: 9px;
+}
+.text-total{
+    font-size: 15pt;
+    text-align: right;
+}
+.pos-right{
+    width: 63vw;
+    height: 88vh;
+    margin-left: 10px;
+    background: white;
+    border-radius: 10px;
+    float: left;
+}
+.button-pos{
+    width: 150px;
+    height: 50px;
+    position:absolute;
+    float: left;
+    margin-left: 10px;
+    bottom: 10px;
+}
+.button-po{
+    width: 150px;
+    height: 50px;
+    position:absolute;
+    float: left;
+    margin-left: 180px;
+    bottom: 10px;
+}
+.button-p{
+    width: 150px;
+    height: 50px;
+    position:absolute;
+    float: left;
+    margin-left: 350px;
+    bottom: 10px;
+}
+.bg-pri{
+    background-color: rgba(181, 181, 210, 0.604);
+}
+.bg-white{
+    background-color: white;
+}
+.text{
+    background: rgba(233, 69, 69, 0.26);
+    text-align: center;
+    color: rgb(139, 0, 0);
+    border-radius: 5px;
+}
+.color-red{
+   color: red;
+}
+.color-blue{
+    color: blue;
+}
+.mg-top{
+    margin-top: 40px;
+}
+.margin-top{
+    margin-top: 20px;
+}
+.search{
+    width: 400px;
+    float: left;
+}
+.button-header{
+    width: 700px;
+    margin-right: 10px;
+    float: right;
+}
+.button-item{
+    width: 150px;
+    margin-left: 10px;
+    float: right;
+}
+.button-date{
+    width: 250px;
+    margin-left: 10px;
+    float: right;
+}
+.button-sort{
+    width: 40px;
+    margin-left: 10px;
+    float: right;
+}
+.text-name{
+    font-size: 11pt;
+}
+.text-email{
+    font-size: 11pt;
+}
+.clear{
+    clear: both;
+}
+/* image product in table*/
+.img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: aquamarine;
+    float: left;
+}
+.text-pro{
+    padding-top: 10px;
+    font-size: 12pt;
+    float: left;
+
+}
+
+/*icon-edit and icon-delete*/
+.icon-action{
+    cursor: pointer;
+    margin-left: 20px;
+    float: left;
+}
+/* size modal*/
+.size-modal{
+    width: 300px;
+    height: 500px;
+}
+.form-left{
+    width: 500px;
+    float: left;
+}
+.form-right{
+    width: 500px;
+    margin-left: 30px;
+    float: left;
+}
+.qty{
+    width: 50px;
+}
+.button-size{
+    width: 70px;
+    margin: 10px;
+    float: right;
+}
+.margin-top-10{
+    margin-top: 10px;
+}
+.margin-left-10{
+    margin-left: 10px;
+}
+.margin-left-20{
+    margin-left: 20px;
+}
+.price{
+    width: 70px;
+    height: 20px;
+    position: relative;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 10pt;
+    background: #d98cfc;
+    float: left;
+}
+.unit{
+    width: 60px;
+    height: 20px;
+    position: relative;
+    background: #2c6cff;
+    color: white;
+    margin-left: 120px;
+    margin-top: -20px;
+    float: left;
+    text-align: center;
+    font-size: 10pt;
+    border-radius: 5px;
+}
+.size{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    background: rgb(120, 112, 224);
+    text-align: center;
+    padding-top: 3px;
+}
+.form-size{
+    width: 30px;
+}
+.fn-size{
+    font-size: 10pt;
+}
+.fn-weight{
+    font-weight: bold;
+}
+.box-date{
+    width: 300px;
+    height: 40px;
+    float: left;
+}
+.box-search{
+    width: 300px;
+    height: 40px;
+    float: right; 
+}
+.bag-dark-red{
+    background: #f605055f;
+}
+/* Reference invoice */
+.invoice{
+    max-width: 100px;
+    padding-top: 2px;
+    font-size: 11pt;
+    background-color: rgba(255, 0, 0, 0.518);
+    color: rgb(151, 0, 0);
+    font-weight:400;
+    opacity: 0.9;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+.re-status{
+    max-width: 100px;
+    height: 30px;
+    background-color: rgba(7, 200, 0, 0.226);
+    font-weight: 400;
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 2px;
+    font-size:11pt;
+    color: rgb(7, 108, 26);
+
+}
+.pos{
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgb(125, 125, 252);
+    color: white;
+    padding-top: 3px;
+    text-align: center;
+}
+.sort{
+    margin-left: 10px;
+    width: 80px;
+    float: left;
+}
+.sort-show{
+    margin-left: 10px;
+    padding-top: 5px;
+    width: 50px;
+    float: left;
+}
+.export{
+    width: 100px;
+    height: 40px;
+    float: left;
+}
+.dates{
+    max-width: 100px;
+    border-radius:3px;
+    text-align: center;
+    background-color: rgba(189, 229, 254, 0.582);
+    color: rgba(0, 153, 219, 0.98);
+}
+.row-button{
+    width: 100px;
+    height: 100px;
+    float: right;
+    
+}
+#upload{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: rgb(238, 238, 238);
+}
+.upload{
+    width: 200px;
+    margin: 0 auto;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.in{
+    margin-top: 40px;
+}
+.box-all-product{
+    width: 61vw;
+    margin-left: 20px;
+    height: 75vh;
+    overflow: auto;
+}
